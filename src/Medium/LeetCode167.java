@@ -1,7 +1,8 @@
 package Medium;
 
 // Two Sum II
-
+// Time Complexity - O(n)
+//Space Complexity - O(1)
 public class LeetCode167 {
     public int[] twoSum(int[] numbers, int target) {
         int l = 0, r = numbers.length - 1;
