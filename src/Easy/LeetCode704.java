@@ -1,5 +1,9 @@
 package Easy;
 
+// Binary Search
+// Time Complexity - O(logn)
+// Space Complexity - O(1)
+
 public class LeetCode704 {
     public int search(int[] nums, int target) {
         int l = 0, r = nums.length-1;

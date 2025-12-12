@@ -1,14 +1,21 @@
 package Easy;
 
+// Reverse Linked List
+// Time Complexity - O(n)
+// Space Complexity - O(1)
+
 class ListNode{
     int value;
     ListNode next;
+
+    public ListNode(int value) {
+        this.value = value;
+    }
 
     public ListNode(ListNode next, int value) {
         this.next = next;
         this.value = value;
     }
-
 }
 
 public class LeetCode206 {
