@@ -4,19 +4,8 @@ package Easy;
 // Time Complexity - O(n)
 // Space Complexity - O(1)
 
-class ListNode{
-    int value;
-    ListNode next;
 
-    public ListNode(int value) {
-        this.value = value;
-    }
-
-    public ListNode(ListNode next, int value) {
-        this.next = next;
-        this.value = value;
-    }
-}
+import Utility.ListNode;
 
 public class LeetCode206 {
     public ListNode reverseList(ListNode head) {
